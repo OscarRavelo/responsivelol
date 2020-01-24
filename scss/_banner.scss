@@ -1,0 +1,55 @@
+.banner {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  &__part1 {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    &__img {
+      width: 100vw;
+      height: auto;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.6);
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+  }
+  &__part2 {
+    width: 100%;
+    height: 100%;
+    top: 7rem;
+    text-align: center;
+    position: absolute;
+    color: white;
+    .title {
+      display: block;
+      font-size: 1rem;
+      padding-bottom: 1rem;
+      padding-top: 1rem;
+    }
+    .text {
+      font-size: 0.7rem;
+      font-weight: 100;
+      line-height: 1.4rem;
+    }
+    .btn {
+      text-decoration: none;
+      border: none;
+      margin: 0.5rem auto;
+      width: 10em;
+      color: white;
+      height: 2em;
+      border-radius: 4px;
+      font-size: 0.5rem;
+      background-color: green;
+    }
+  }
+}

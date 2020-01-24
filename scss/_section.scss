@@ -1,0 +1,17 @@
+.sec {
+  margin-top: 4rem;
+  width: 100vw;
+  height: auto;
+  text-align: justify;
+  &__title {
+    font-weight: 300;
+    margin: 0 auto 2rem auto;
+    padding-bottom: 0.03rem;
+    display: block;
+    width: 90%;
+    border-bottom: 1px solid green;
+    span {
+      border-bottom: 2px solid green;
+    }
+  }
+}
