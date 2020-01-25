@@ -70,6 +70,7 @@
     &.open {
       .line {
         transform: rotate(180deg);
+        transition: all ease 500ms;
         background-color: transparent;
         &::before {
           transform: rotate(40deg);
@@ -85,11 +86,12 @@
   .nav {
     width: 100vw;
     height: 100vh;
-    background-color: black;
+    background-color: transparent;
     overflow: hidden;
     transform: translateY(-150%);
     &.open {
       z-index: -1;
+      background-color: black;
       transition: all ease 500ms;
       transform: translateY(0);
     }
