@@ -87,10 +87,10 @@
     height: 100vh;
     background-color: black;
     overflow: hidden;
-    transition: all ease 1000ms;
     transform: translateY(-150%);
     &.open {
       z-index: -1;
+      transition: all ease 500ms;
       transform: translateY(0);
     }
     ul {
