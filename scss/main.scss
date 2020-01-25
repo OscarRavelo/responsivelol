@@ -2,10 +2,11 @@
 @import "header";
 @import "banner";
 @import "section";
-@import "responsive";
 
 main {
   width: 100vw;
   height: 100vh;
   margin-top: 5rem;
 }
+
+@import "responsive";

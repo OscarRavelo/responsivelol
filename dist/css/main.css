@@ -270,7 +270,13 @@
   border-bottom: 2px solid green;
 }
 
-@media screen and (min-width: 400px) {
+main {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 5rem;
+}
+
+@media screen and (min-width: 774px) {
   body {
     font-size: 20px;
   }
@@ -319,7 +325,7 @@
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1024px) {
   body {
     font-size: 35px;
   }
@@ -364,10 +370,4 @@
   .banner__part2 .text {
     margin: 0 4rem;
   }
-}
-
-main {
-  width: 100vw;
-  height: 100vh;
-  margin-top: 5rem;
 }
