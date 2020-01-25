@@ -159,8 +159,8 @@
   color: white;
   font-size: 4rem;
   padding-top: 1.3rem;
-  -webkit-transform: translateX(260%);
-          transform: translateX(260%);
+  -webkit-transform: translateX(460%);
+          transform: translateX(460%);
   -webkit-transition: all ease 300ms;
   transition: all ease 300ms;
   -webkit-transition-delay: 1s;
@@ -284,7 +284,10 @@ main {
     font-size: 20px;
   }
   .header .x {
+    -webkit-transition: all ease 0ms;
+    transition: all ease 0ms;
     visibility: hidden;
+    display: none;
   }
   .header .nav {
     color: white;

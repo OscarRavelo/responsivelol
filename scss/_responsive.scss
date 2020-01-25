@@ -4,7 +4,9 @@
   }
   .header {
     .x {
+      transition: all ease 0ms;
       visibility: hidden;
+      display: none;
     }
     .nav {
       color: white;
